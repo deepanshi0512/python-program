@@ -1,0 +1,26 @@
+student={
+    "name":"Deepanshi",
+    "age":24,
+    "marks":90
+}
+
+# get
+print("Name is : ",student.get("name"))
+
+# update
+student.update({"age":25})
+print("Updated age is : ",student)
+
+# keys
+print("All keys :",student.keys())
+
+# values
+print("All values :",student.values())
+
+# add new key
+student["city"]="Durg"
+student["state"]="Chhattisgarh"
+
+# pop
+student.pop("marks")
+print("After deleting marks : ",student)
