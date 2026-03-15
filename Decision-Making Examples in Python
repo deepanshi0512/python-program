@@ -1,0 +1,6 @@
+user_name=input("Please Enter your name:")
+age= int(input("Please enter your age:"))
+if age>=18:
+    print(f"You are eligible to vote as your age is {age}")
+else:
+    print(f"You are not eligible to vote as your age is {age}")
