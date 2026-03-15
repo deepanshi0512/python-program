@@ -1,0 +1,15 @@
+name=input("Enter your name : ")
+maths=input("Enter your maths marks : ")
+science=input("Enter your science marks : ")
+english=input("Enter  your english marks : ")
+
+#Type Casting
+math=int(maths)
+english=int(english)
+science=int(science)
+
+total=math+science+english
+percentage=total / 300 * 100
+
+print(f"{name} Your total marks is : {total}")
+print(f"{name} Your Percentage is :  {percentage}")
