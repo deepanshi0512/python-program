@@ -1,0 +1,13 @@
+items={
+    "sofa":10000,
+    "table":6000,
+    "cushion":2000,
+    "couch":25000
+}
+
+product=input("Enter furniture you want to buy : ")
+
+if product in items:
+    print("Price of the furniture is : ",items[product])
+else:
+    print("Item is not available.")
