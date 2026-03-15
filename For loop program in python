@@ -1,0 +1,10 @@
+user_name=input("Please Enter your name:")
+print(f"Hello ! {user_name} Welcome to Buy and Sale website")
+furniture=input("Please Enter the name of furniture you want to buy:")
+price=int(input("Please Enter the price of the furniture:"))
+color=input("Please Enter the color of the furniture:")
+
+sale_price={"sofa":[10000,"pink"],"table":[5000,"blue"],"chair":[2000,"green"]}
+for key,value in sale_price.items():
+    if key==furniture and value[0]==price and value[1]==color:
+        print(f"The {key} is available at the price of {value[0]} and color {value[1]}")
